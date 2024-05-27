@@ -929,13 +929,13 @@ version = "2.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62c6fcf842f17f8c78ecf7c81d75c5ce84436b41ee07e03f490fbb5f5a8731d8"
 dependencies = [
- "bigdecimal 0.1.2",
+ "bigdecimal 0.3.1",
  "bitflags 2.4.0",
  "byteorder",
  "chrono",
  "diesel_derives",
  "itoa",
- "num-bigint 0.2.6",
+ "num-bigint 0.4.4",
  "num-integer",
  "num-traits",
  "pq-sys",
@@ -3363,9 +3363,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.76"
+version = "1.0.84"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95fc56cda0b5c3325f5fbbd7ff9fda9e02bb00bb3dac51252d2f1bfa1cb8cc8c"
+checksum = "ec96c6a92621310b51366f1e28d05ef11489516e93be030060e5fc12024a49d6"
 dependencies = [
  "unicode-ident",
 ]
